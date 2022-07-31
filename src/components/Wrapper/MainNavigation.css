@@ -1,0 +1,14 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    font-size: 1.75rem;
+    font-family: 'Montserrat', sans-serif;
+    height: 100px;
+    border-bottom: 1px solid white;
+    background: hotpink;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
