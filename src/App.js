@@ -13,7 +13,7 @@ function App() {
       <Wrapper>
         <Routes>
           <Route exact path="/" element={<HomePage />} />
-          <Route path="/collections/:title/:productId" element={<DetailPage />} />
+          <Route path="/collections/:title/:productId" element={<ProductPage />} />
         </Routes>
         <Footer />
       </Wrapper>
